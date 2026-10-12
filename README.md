@@ -40,6 +40,8 @@ npm run dev
 ## Cloudflare Pages 設定
 
 - GitHub repository: `courtney-flypa/tools`
+- Pages project: `mushrooom-tools`
+- Pages URL: https://mushrooom-tools.pages.dev/
 - Production branch: `main`
 - Framework preset: None
 - Build command: `npm run build`
@@ -47,4 +49,4 @@ npm run dev
 - Node.js: 22 或以上
 - Custom domain: `tools.mushrooom.org`
 
-只發布 `public/`，不發布開發指引或工具範本。`404.html` 提供找不到頁面的狀態。部署完成後，仍需在 Pages 綁定自訂網域並確認 HTTPS 可用。
+只發布 `public/`，不發布開發指引或工具範本。`404.html` 提供找不到頁面的狀態。GitHub 的 `main` 分支已連接 Pages 自動部署；自訂網域已綁定。網域的安全規則由 Cloudflare 另行管理。
