@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mushrooom Tools｜小工具，慢慢長出來</title>
+  <meta name="description" content="Mushrooom 的小工具收集處。從日常遇到的小問題開始，把好用的解法，一個一個留下來。">
+  <meta name="theme-color" content="#f7f8f2">
+  <link rel="icon" href="/assets/mushroom.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/style.css">
+  <script type="module" src="/assets/catalog.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#catalog">跳到工具目錄</a>
+  <div class="page">
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="Mushrooom Tools 首頁"><img src="/assets/mushroom.svg" alt="" width="30" height="30"><span>mushrooom<span class="brand-divider">/</span><strong>tools</strong></span></a>
+      <nav aria-label="主要導覽"><a href="#about">關於這裡</a><a href="https://mushrooom.org/">主站 <span aria-hidden="true">↗</span></a></nav>
+    </header>
+    <main>
+      <section class="intro" aria-labelledby="title">
+        <p class="eyebrow"><span class="dot" aria-hidden="true"></span>A GROWING COLLECTION</p>
+        <h1 id="title">小工具，<br>慢慢長出來<span class="accent">。</span></h1>
+        <p class="intro-copy">從日常遇到的小問題開始，<br class="mobile-break">把好用的解法，一個一個留下來。</p>
+        <span class="domain">tools.mushrooom.org</span>
+      </section>
+      <section class="catalog" id="catalog" aria-labelledby="catalog-title">
+        <div class="section-heading"><h2 id="catalog-title">工具目錄 <span class="count" id="total">00</span></h2><span class="small-label">一個工具，解決一件小事</span></div>
+        <div class="filters" id="filters" hidden>
+          <label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="搜尋工具、用途或關鍵字…" aria-label="搜尋工具"><kbd aria-hidden="true">/</kbd></label>
+          <label class="sr-only" for="category">工具分類</label><select id="category"><option value="">全部分類</option></select>
+        </div>
+        <p class="result-count" id="result-count" role="status" hidden></p>
+        <ul class="tool-list" id="tool-list"></ul>
+        <div class="empty-state" id="empty-state">
+          <div class="empty-illustration" aria-hidden="true"><span class="sprout-line"></span><img src="/assets/mushroom.svg" alt="" width="56" height="56"><span class="sprout-line"></span></div>
+          <p class="empty-label">ROOM TO GROW</p>
+          <h3 id="empty-title">第一個工具，留給下一個靈感。</h3>
+          <p id="empty-copy">這裡目前還是空的。<br>等一個值得動手解決的小問題。</p>
+          <button id="clear-search" class="text-button" type="button" hidden>清除篩選 <span aria-hidden="true">↗</span></button>
+        </div>
+        <noscript><p class="notice">請開啟 JavaScript 以載入最新工具目錄。</p></noscript>
+      </section>
+      <section class="about" id="about" aria-labelledby="about-title">
+        <div><p class="eyebrow">ABOUT THIS CORNER</p><h2 id="about-title">一小塊，放工具的地方。</h2></div>
+        <div class="about-copy"><p>有些問題很小，卻會一直遇到。這裡想收集的，就是那些能讓日常少一點麻煩的小工具。</p><p>靈感來自 <a href="https://tools.simonwillison.net/">Simon Willison’s Tools <span aria-hidden="true">↗</span></a>。從空白開始，邊用、邊做、慢慢累積。</p></div>
+      </section>
+    </main>
+    <footer><span>© 2026 mushrooom</span><span class="footer-note">Made for the little things.</span><a href="https://github.com/courtney-flypa/tools">GitHub <span aria-hidden="true">↗</span></a></footer>
+  </div>
+</body>
+</html>
